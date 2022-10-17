@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- * main - prints the numbers in base 16
- * Return: Always 0
+ * main-program entry point.
+ * Return: 0 if no error, non zero if error.
  */
 int main(void)
 {
-	int num;
-	char la;
+	int i;
+	char hexvalues[] = "0123456789abcdef";
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
-	for (la = 'a'; la <= 'f'; la++)
-		putchar(la);
+	for (i = 0; i < 16; i++)
+	{
+		putchar(hexvalues[i]);
+	}
 	putchar('\n');
 	return (0);
 }
