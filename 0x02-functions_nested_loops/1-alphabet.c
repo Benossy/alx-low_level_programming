@@ -2,8 +2,9 @@
 /**
  * main - prints the alphabet, in lowercase, followed by a new line
  * Return: 0
+ * print_alphabet: is a prototype
  */
-void print_alphabet(void)
+print_alphabet(void)
 {
 	char al;
 
@@ -16,5 +17,4 @@ void print_alphabet(void)
 
 	_putchar('\n');
 
-	return (0);
 }
