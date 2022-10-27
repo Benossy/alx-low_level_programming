@@ -6,7 +6,7 @@
 int main(void)
 {
 	int n;
-	int a['%'];
+	int a[%];
 	int *p;
 
 	a[2] = 1024;
